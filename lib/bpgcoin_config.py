@@ -34,7 +34,7 @@ class BPGCoinConfig():
         creds = {key: value for (key, value) in match}
 
         # standard BPGCoin defaults...
-        default_port = 19551 if (network == 'mainnet') else 18551
+        default_port = 5500 if (network == 'mainnet') else 5500
 
         # use default port for network if not specified in bpgcoin.conf
         if not ('port' in creds):
