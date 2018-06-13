@@ -2,9 +2,9 @@
 
 An all-powerful toolset for BPGCoin.
 
-[![Build Status](https://travis-ci.org/bpgcoindev/sentinel.svg?branch=master)](https://travis-ci.org/bpgcoindev/sentinel)
+[![Build Status](https://travis-ci.org/bpg-project/sentinel.svg?branch=master)](https://travis-ci.org/bpg-project/sentinel)
 
-Sentinel is an autonomous agent for persisting, processing and automating BPGCoin V12.1 governance objects and tasks, and for expanded functions in the upcoming BPGCoin V13 release (Evolution).
+Sentinel is an autonomous agent for persisting, processing and automating BPGCoin V2.2 governance objects and tasks, and for expanded functions in the upcoming BPGCoin V2 release (Evolution).
 
 Sentinel is implemented as a Python application that binds to a local version 12.1 bpgcoind instance on each BPGCoin V12.1 Masternode.
 
@@ -31,7 +31,7 @@ Make sure the local BPGCoin daemon running is at least version 12.1 (120100)
 
 Clone the Sentinel repo and install Python dependencies.
 
-    $ git clone https://github.com/bpgcoindev/sentinel.git && cd sentinel
+    $ git clone https://github.com/bpg-project/sentinel.git && cd sentinel
     $ virtualenv ./venv
     $ ./venv/bin/pip install -r requirements.txt
 
